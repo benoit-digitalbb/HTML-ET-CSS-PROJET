@@ -1,0 +1,92 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css");
+
+body {
+  padding-top: 4.5rem;
+}
+.emoji {
+  font-family: 'Noto Emoji', sans-serif;
+  font-weight: 400;
+  font-size: 10vw;
+  color : blue;
+}
+
+.mybox1 {
+  background-color: rgb(180, 10, 10);
+  min-height: 200px;
+  margin: 10px 0px;
+  padding: 20px;
+}
+
+
+.myboxred {
+  background-color: rgb(180, 10, 10);
+  min-height: 200px;
+}
+
+.mytexte {
+font-family: 'Joan', serif;
+}
+
+h1 {
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  color:rgb(31, 96, 114);
+}
+
+.nav-link {
+  font-family: 'Joan', serif;
+  color:rgb(31, 96, 114);
+}
+.nav-link:hover {color: #0f0;}
+
+.navbar-nav .nav-link.active {
+  color : rgb(106, 15, 224);
+}
+
+.card-title {
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  color:rgb(31, 96, 114);
+}
+
+.card-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+
+}
+
+.display-6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color:rgb(31, 96, 114);
+
+}
+
+.btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color:rgb(31, 96, 114);
+  background-color: #0f0;
+  border-color: rgb(15, 200, 251);
+  border-width: 0.2rem;
+}
+
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #a18cd1;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    45deg,
+    rgba(29, 236, 198, o.3),
+    rgba(239, 44, 109, 0.3) 100%
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(
+    43deg,
+    rgba(65, 88, 208, 0.18) 0%,
+    rgba(200, 80, 192, 0.18) 46%,
+    rgba(255, 204, 112, 0.18) 100%
+  );
+}
